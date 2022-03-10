@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\HP\\Desktop\\Hand Gesture Recognition\\Mydataset\\TrainedModel\\GestureRecogModel.tfl"
+all_model_checkpoint_paths: "C:\\Users\\HP\\Desktop\\Hand Gesture Recognition\\Mydataset\\TrainedModel\\GestureRecogModel.tfl"
