@@ -86,17 +86,6 @@ While testing the applications I found out that some of the symbol predictions w
 
 So, I used two layers of algorithms to verify and predict symbols which are more similar to each other so that I can get close as I can to detect the symbol shown.
 
-In my testing the following symbols were not showing properly and were giving output as other symbols :
-
-For D : R and U
-For U : D and R
-For I : T, D, K and I
-For S : M and N
-So, to handle above cases I made three different classifiers for classifying these sets:
-
-{D, R, U}
-{T, K, D, I}
-{S, M, N}
 
 # 5. Results:
 I have achieved an accuracy of 95.8% in my model using only layer 1 of the algorithm, and using the combination of layer 1 and layer 2 I achieve an accuracy of 98.0%.
